@@ -1,5 +1,7 @@
 # Collecting & visualising data from Twitter with TAGS
 
+TAGS is tool for collecting and analysing Twitter built upon Google Sheets by [Martin Hawksey] (https://twitter.com/mhawksey).
+
 Do you have Google and Twitter accounts? If not, make them or follow along with someone else.
 - Go to [TAGS](https://tags.hawksey.info/get-tags/)
 - Click on TAGS v6.1
