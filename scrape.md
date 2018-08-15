@@ -54,7 +54,21 @@ PIC
 
 ```What is the problem with the data table?```
 
-## Collecting data for the way you want it organsised
+## Collecting data for the way you want it organised
+
+- Go back to the Web Scraper menubar, click on 'Sitemap the_local' and choose 'Selectors'
+- We need a way to group the data we are collecting so that each forum has its topics and replies associated with it
+  - Click on 'Add new selector'
+    - Give the new selector the name 'forum' and selector type 'Link'
+    - Select the links for each forum untill all are highlighted and click on 'Done selecting!'
+    - Don't forget to check 'Multiple' and click 'Save selector'
+  - Click on 'Edit' under 'Actions' for each of the other selectors you already created
+    - For each selector, scroll down until you see the box 'Parent Selectors' and change this to 'forum'
+  - The 'forum' link selector not only collects the address (URL) for each forum, but is now the parent of all the other selectors
+    - Click on 'Sitemap the_local' and choose 'Selector graph' to see the organisation of the selectors
+    - Click on the '_root' node, then on 'forum' and you should see the three other selectors grouped as child nodes
+  - Click on 'Sitemap the_local', 'Scrape' to collect data again
+  
 
 
 
