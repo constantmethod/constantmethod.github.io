@@ -1,4 +1,4 @@
-[<Home](https://rocketboytom.github.io/TEfL/)
+[<Home](README.md)
 
 # Collecting & visualising data from Twitter with TAGS
 
