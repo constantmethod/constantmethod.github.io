@@ -33,9 +33,9 @@ PIC
     - 'Id' is the name you will give the selector - In the end this will be the name of a data category or a column in the spreadsheet of data you produce
     - 'Type' is the kind of data you want to collect from text to images, etc...
     - 'Selector' is the webpage element you will use ot identify the data you want
-  - Add the 'Id' 'thread' and leave the 'Type' as 'Text'. We will collect the names of all the threads listed on the page
+  - Add the 'Id' 'thread_title' and leave the 'Type' as 'Text'. We will collect the titleds of all the threads listed on the page
 PIC
-  - Click on 'Select' under 'Selector' and run the mouse over the names of the threads. You should see that they become highlighted in green
+  - Click on 'Select' under 'Selector' and run the mouse over the titles of the threads. You should see that they become highlighted in green
     - Click on the first one and it should turn red
     - Click on the next one and you should see that not only does it turn red, but so do the remaining thread names. The system has now recognized a common identifier for that data type and has specified it in the floating box just above the Web Scraper window
       - Click on 'Done selecting!'
@@ -56,19 +56,52 @@ PIC
 
 ## Collecting data for the way you want it organised
 
-- Go back to the Web Scraper menubar, click on 'Sitemap the_local' and choose 'Selectors'
-- We need a way to group the data we are collecting so that each forum has its topics and replies associated with it
+- Go back to the Web Scraper menubar, click on 'Sitemap gardening' and choose 'Selectors'
+- We need a way to group the data we are collecting so that each thread has its last reply date and number of replies associated with it and there is an easy way to do that
+  - Start by going back to 'Selectors' in the menubar and deleting the selectors you made
   - Click on 'Add new selector'
-    - Give the new selector the name 'forum' and selector type 'Link'
-    - Select the links for each forum untill all are highlighted and click on 'Done selecting!'
+    - Give the new selector the name 'threads' and selector type 'Table'
+    - For 'Selector' choose 'Select' and click within the table of threads
+    - The 'Header row selector' and 'Data row selector' should automatically populate
     - Don't forget to check 'Multiple' and click 'Save selector'
-  - Click on 'Edit' under 'Actions' for each of the other selectors you already created
-    - For each selector, scroll down until you see the box 'Parent Selectors' and change this to 'forum'
-  - The 'forum' link selector not only collects the address (URL) for each forum, but is now the parent of all the other selectors
-    - Click on 'Sitemap the_local' and choose 'Selector graph' to see the organisation of the selectors
-    - Click on the '_root' node, then on 'forum' and you should see the three other selectors grouped as child nodes
   - Click on 'Sitemap the_local', 'Scrape' to collect data again
+  - A table of data should appear in the Web Scraper window, but if it doesn't click 'Refresh'
   
+  ```How else might it be useful to collect the data in the table? What is the dataset missing?```
+  
+  ## Drilling down & crawling links
+  
+- Go back to the Web Scraper menubar, click on 'Sitemap gardening', choose 'Selectors' and delete 'threads
+- Add a new selector of type 'Link' called 'thread' that collects the titles of each thread
+- Click on the link to a thread with replies in Chrome so that you see the posts
+- We want to group the data we collect for each post so we will use another selector type called 'Element'
+  - Create an 'Element' selector called 'post'
+  - Select the outer box for 2 or 3 posts - the box containing both the poster's name and the text of their post
+    - Make sure that all the posts are shaded red
+PIC
+  - Before clicking on 'Save selector', change 'Parent Selectors' to 'thread'
+  - Now the scraper will run the new element selector for every link found by the 'thread' selector
+- Now we want to fill the element selector with data from each post
+  - Click on 'thread' and on 'post'
+  - Add a new selector of type 'Text' called 'poster'
+  - When you click on 'Select', you should see that the 1st post is highlighted yellow. Select the name of the poster from inside that post and choose 'post' as the parent selector
+  - Add a text new selector for the body text of the post
+- Go to the Web Scraper menubar and click on 'Sitemap gardening' and choose 'Selector graph'
+  - Click on the 'root', 'thread' and 'post' nodes to expand the graph and see how the selectors fit together. For every each post in each thread the poster and body text is collected
+- Select 'Scrape' from the menu bar. This scrape might take a little longer. The more pages there are to crawl, the longer it takes to scrape
+PIC
+- At the moment we have only scraped the 1st page of thread titles and of posts in each thread. To scrape this forum properly, we would create a link selector that crawls each page of thread tiles and then another that crawls each page of posts in a thread. We would do this using the same kind parent and child structure that we used to group the post information
+
+## Exporting the data
+
+- To export the data as a spreadsheet, go to 'Sitemap gardening' and choose 'Export data as CSV'
+  - CSV (comma seperated values) is a standard format and will open in any spreadsheet program
+
+```How might it be best to order the data? Is there any data missing that would be useful for creating orderings that would be useful for ethnographic and interaction analyses?```
+
+
+
+
 
 
 
