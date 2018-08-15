@@ -9,7 +9,7 @@ Do you have Google and Twitter accounts? If not, make them or follow along with 
 
 ## Data types
 
-![Data types](https://github.com/rocketboytom/TEfL/blob/master/data_types.png)
+![Data types](https://github.com/rocketboytom/TEfL/blob/master/data_types.png?raw=true)
 
 Look at the last row under 'Advanced Settings'. You can collect 3 types of data:
 - Based on search terms
@@ -23,7 +23,7 @@ For each of these data types, you enter a search term in the box in the Enter te
 
 ## Duration
 
-![Duration](https://github.com/rocketboytom/TEfL/blob/master/duration.png)
+![Duration](https://github.com/rocketboytom/TEfL/blob/master/duration.png?raw=true)
 
 Like most social media platforms, Twitter restricts the amount of data you can collect from their database at a given time.
 
@@ -45,7 +45,7 @@ Take a look at Twitter and choose a hashtag or trend that you would like to exam
 
 - Write your chosen search term in the 'Enter term' box and make sure that 'Type' is set to 'search/tweets'
 - Go to the Google Sheets menu and choose 'TAGS' then 'Run now!'
-![Run the script](https://github.com/rocketboytom/TEfL/blob/master/run_now.png)
+![Run the script](https://github.com/rocketboytom/TEfL/blob/master/run_now.png?raw=true)
 - Give TAGS permission to run the script by clicking on 'Allow'
 - Give TAGS permission to use your Twitter account to collect data
   - Click on 'Yes' to setup Twitter
@@ -62,15 +62,15 @@ Take a look at Twitter and choose a hashtag or trend that you would like to exam
 Go back to the ‘Readme/Settings’ tab at the bottom of the screen.
 
 To do this we need to open up the dataset. In the top right corner click on 'Share'
-![Share>Advanced](https://github.com/rocketboytom/TEfL/blob/master/sharing_advanced.png)
+![Share>Advanced](https://github.com/rocketboytom/TEfL/blob/master/sharing_advanced.png?raw=true)
 - Click on 'Advanced' and then on ‘Change’ in the row with ‘Private - Only You can access’
-![Change permissions](https://github.com/rocketboytom/TEfL/blob/master/change_permissions.png)
+![Change permissions](https://github.com/rocketboytom/TEfL/blob/master/change_permissions.png?raw=true)
 - Change the setting to ‘On - Public on the web’
-![Sharing on](https://github.com/rocketboytom/TEfL/blob/master/sharing_on.png)
+![Sharing on](https://github.com/rocketboytom/TEfL/blob/master/sharing_on.png?raw=true)
 - Click on ‘Save’ and then on ‘Done’
 
 Under ‘Make interactive’ you will see ‘TAGSExplorer’ and ‘TAGSArchive’.
-![Visualisations](https://github.com/rocketboytom/TEfL/blob/master/Visualisations.png)
+![Visualisations](https://github.com/rocketboytom/TEfL/blob/master/Visualisations.png?raw=true)
 - 'TAGSExplorer' is a network graphing tool. Click on the link to it
   - Each circle (node) is a user who made a tweet including your search term
   - Solid lines (edges) represent one user replying to another’s tweet, the arrows show the direction
