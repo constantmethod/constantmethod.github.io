@@ -45,7 +45,7 @@ PIC
   - Click on 'Add new selector' and this time name it 'topics' and leave the 'Type' as 'Text'
   - Click on 'Select', select the number of topics until they are all highlighted, click on 'Done selecting!', don't forget to check 'Multiple' and then 'Save selector'
 
-```Try telling the system to collect the number of replies```
+```How would you collect the number of replies?```
 
 - Scrape the data you have chosen to collect by going to 'Sitemap the_local' on the Web Scaper menubar and selecting 'Scrape'
   - You can change the speed with which the scraper crawls the website and collects data, but leave these settings alone for now and click on 'Start scraping'
