@@ -21,7 +21,7 @@ To follow this tutorial, you will need have [Google Chrome](https://www.google.c
 - If the 'Developer tools' window is on the side of the screen, follow the instructions to move it to the bottom
 - You should now see the Web Scraper window at the bottom of Chrome
 
-![Web Scraper](https://github.com/rocketboytom/TEfL/blob/master/webscraper_window.png?raw=true){:height="75%" width="75%"}
+![Web Scraper](https://github.com/rocketboytom/TEfL/blob/master/webscraper_window.png?raw=true)
 
 ## Creating a simple scraper
 
@@ -98,7 +98,7 @@ To follow this tutorial, you will need have [Google Chrome](https://www.google.c
 
 ## Exporting the data
 
-![Collected data](https://github.com/rocketboytom/TEfL/blob/master/webscraper_data.png?raw=true){:height="75%" width="75%"}
+![Collected data](https://github.com/rocketboytom/TEfL/blob/master/webscraper_data.png?raw=true)
 
 - To export the data as a spreadsheet, go to 'Sitemap gardening' and choose 'Export data as CSV'
   - CSV (comma seperated values) is a standard format and will open in any spreadsheet program
