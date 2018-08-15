@@ -16,7 +16,7 @@ Look at the last row under Advanced Settings. You can collect 3 types of data:
   - statuses/user_timeline - Tweets posted by a particular user
   - favourites/list - Tweets favorited by a particular user
 For each of these data types, you enter a search term in the box in the Enter term row. For search/tweets you enter any text string. For statuses/user_timeline and favourites/list, you enter an account name starting with @.
-
+----
 ## *What are the different research ethics standards to consider for these different types of data?*
 
 ## Duration
