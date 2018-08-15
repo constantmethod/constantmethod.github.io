@@ -45,6 +45,7 @@ Take a look at Twitter and choose a hashtag or trend that you would like to exam
 
 - Write your chosen search term in the 'Enter term' box and make sure that 'Type' is set to 'search/tweets'
 - Go to the Google Sheets menu and choose 'TAGS' then 'Run now!'
+![Run the script](https://github.com/rocketboytom/TEfL/blob/master/run_now.png)
 - Give TAGS permission to run the script by clicking on 'Allow'
 - Give TAGS permission to use your Twitter account to collect data
   - Click on 'Yes' to setup Twitter
