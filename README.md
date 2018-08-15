@@ -27,7 +27,7 @@ Look under Advances settings at Period. Here you can choose how many days back y
 
 Look at the note at the bottom of the Instructions area. You can get around Twitter’s data cap if you know ahead of time what you want to collect and setup TAGS to collect repeatedly over a period of time that could be hours or days or even years. For example, if you know that a particular course or MOOC is going to be using a a certain hashtag, you can collect tweets containing that hashtag every day for the duration of the course.
 
-## *What are the research ethics considerations of collecting retrospective data versus collecting live data?*
+```What are the research ethics considerations of collecting retrospective data versus collecting live data?```
 
 ## Try collecting data based on a search term
 
@@ -51,7 +51,7 @@ Take a look at Twitter and choose a hashtag or trend that you would like to exam
 - Go back to the menu and choose TAGS>Run Now! again. Wait until you see the Script Finished message
 - Go to the bottom of the screen and choose the Archive tab to see the data you have collected
 
-## *What kind of data did you get Twitter?*
+```What kind of data did you get Twitter?```
 
 ## Ways of representing data
 Go back to the ‘Readme/Settings’ tab at the bottom of the screen.
@@ -70,7 +70,7 @@ Under ‘Make interactive’ you will see ‘TAGSExplorer’ and ‘TAGSArchive�
     - Blue dashed lines represent retweets when one user retweets (forwards) another’s tweet
   - The size of the account name represents the number of in-links a user has in the network. In this case, in links are replies, mentions and retweets. This can be interpreted as a measure of relative importance in the network
 
-## *How might a network graph inform an ethnographic study of the community of Tweeters?*
+```How might a network graph inform an ethnographic study of the community of Tweeters?```
 
 TAGSArchive visualises the dataset over time and has search tools. Go back to the main TAGS Google Sheet and click on the link to it.
 - The tweets are organised chronologically
@@ -78,7 +78,7 @@ TAGSArchive visualises the dataset over time and has search tools. Go back to th
 - Use the bars at the edges of the timeline to select specific time periods
 - The Filter boxes at the top allow you to filter tweets by the content of the tweet or the content of the user name
 
-## *How might a chronological visualisation inform an ethnographic study of the community of Tweeters?*
+```How might a chronological visualisation inform an ethnographic study of the community of Tweeters?```
 
 
 
