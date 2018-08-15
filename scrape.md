@@ -15,10 +15,13 @@ To follow this tutorial, you will need have [Google Chrome](https://www.google.c
   - On Windows press Ctrl+Shift+I
   - On Mac press Cmd+Opt+I
 - Click 'Web Scraper' in the 'Developer tools' window menu. If it does not appear in the menu, click the arrow to show more menu items
-[Open Web Scraper](https://github.com/rocketboytom/TEfL/blob/master/open_webscraper.png
+
+[Open Web Scraper](https://github.com/rocketboytom/TEfL/blob/master/open_webscraper.png?raw=true){:height="75%" width="75%"}
+
 - If the 'Developer tools' window is on the side of the screen, follow the instructions to move it to the bottom
 - You should now see the Web Scraper window at the bottom of Chrome
-PIC
+
+[Web Scraper](https://github.com/rocketboytom/TEfL/blob/master/webscraper_window.png?raw=true){:height="75%" width="75%"}
 
 ## Creating a simple scraper
 
@@ -33,8 +36,7 @@ PIC
     - 'Id' is the name you will give the selector - In the end this will be the name of a data category or a column in the spreadsheet of data you produce
     - 'Type' is the kind of data you want to collect from text to images, etc...
     - 'Selector' is the webpage element you will use ot identify the data you want
-  - Add the 'Id' 'thread_title' and leave the 'Type' as 'Text'. We will collect the titleds of all the threads listed on the page
-PIC
+  - Add the 'Id' 'thread_title' and leave the 'Type' as 'Text'. We will collect the titles of all the threads listed on the page
   - Click on 'Select' under 'Selector' and run the mouse over the titles of the threads. You should see that they become highlighted in green
     - Click on the first one and it should turn red
     - Click on the next one and you should see that not only does it turn red, but so do the remaining thread names. The system has now recognized a common identifier for that data type and has specified it in the floating box just above the Web Scraper window
@@ -49,7 +51,9 @@ PIC
 
 - Scrape the data you have chosen to collect by going to 'Sitemap gardening' on the Web Scaper menubar and selecting 'Scrape'
   - You can change the speed with which the scraper crawls the website and collects data, but leave these settings alone for now and click on 'Start scraping'
-PIC
+
+[Scrape](https://github.com/rocketboytom/TEfL/blob/master/webscraper_scraping.png?raw=true){:height="75%" width="75%"}
+
 - A table of data should appear in the Web Scraper window, but if it doesn't click 'Refresh'
 
 ```What is the problem with the data table?```
@@ -77,8 +81,9 @@ PIC
 - We want to group the data we collect for each post so we will use another selector type called 'Element'
   - Create an 'Element' selector called 'post'
   - Select the outer box for 2 or 3 posts - the box containing both the poster's name and the text of their post
-    - Make sure that all the posts are shaded red
-PIC
+  
+[Selecting posts](https://github.com/rocketboytom/TEfL/blob/master/webscraper_post.png?raw=true){:height="75%" width="75%"}
+  
   - Before clicking on 'Save selector', change 'Parent Selectors' to 'thread'
   - Now the scraper will run the new element selector for every link found by the 'thread' selector
 - Now we want to fill the element selector with data from each post
@@ -89,33 +94,13 @@ PIC
 - Go to the Web Scraper menubar and click on 'Sitemap gardening' and choose 'Selector graph'
   - Click on the 'root', 'thread' and 'post' nodes to expand the graph and see how the selectors fit together. For every each post in each thread the poster and body text is collected
 - Select 'Scrape' from the menu bar. This scrape might take a little longer. The more pages there are to crawl, the longer it takes to scrape
-PIC
 - At the moment we have only scraped the 1st page of thread titles and of posts in each thread. To scrape this forum properly, we would create a link selector that crawls each page of thread tiles and then another that crawls each page of posts in a thread. We would do this using the same kind parent and child structure that we used to group the post information
 
 ## Exporting the data
+
+[Collected data](https://github.com/rocketboytom/TEfL/blob/master/webscraper_data.png?raw=true){:height="75%" width="75%"}
 
 - To export the data as a spreadsheet, go to 'Sitemap gardening' and choose 'Export data as CSV'
   - CSV (comma seperated values) is a standard format and will open in any spreadsheet program
 
 ```How might it be best to order the data? Is there any data missing that would be useful for creating orderings that would be useful for ethnographic and interaction analyses?```
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-  
-
-
-
-
-
