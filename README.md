@@ -9,7 +9,7 @@ Do you have Google and Twitter accounts? If not, make them or follow along with 
 
 ## Data types
 
-![Data types](TEfL/data_types.png)
+![Data types](https://github.com/rocketboytom/TEfL/data_types.png)
 
 Look at the last row under Advanced Settings. You can collect 3 types of data:
 - Based on search terms
