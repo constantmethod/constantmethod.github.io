@@ -23,31 +23,31 @@ PIC
 ## Creating a simple scraper
 
 - Click on 'Create a new sitemap' and 'Create sitemap'
-- Choose a 'Sitemap name' in this case: the_local
-- Choose a 'Start URL' in this case: https://www.thelocal.se/discuss/
+- Choose a 'Sitemap name' in this case: gardening
+- Choose a 'Start URL' in this case: https://garden.org/forums/view/gardening/
 - Click on 'Create Sitemap'
-- Go to https://www.thelocal.se/discuss/ in Chrome - The forum site should appear above the Web Scraper window
-- First, lets collect the links to the different forums listed
+- Go to https://garden.org/forums/view/gardening/ in Chrome - The forum site should appear above the Web Scraper window
+- First, lets collect the links to the different discussion threads listed
   - Click on 'Add new selector'
     - A selector is an identifiable element on the webpage from which you will collect the related content
     - 'Id' is the name you will give the selector - In the end this will be the name of a data category or a column in the spreadsheet of data you produce
     - 'Type' is the kind of data you want to collect from text to images, etc...
     - 'Selector' is the webpage element you will use ot identify the data you want
-  - Add the 'Id' 'forum_name' and leave the 'Type' as 'Text'. We will collect the names of all the forums listed on the page
+  - Add the 'Id' 'thread' and leave the 'Type' as 'Text'. We will collect the names of all the threads listed on the page
 PIC
-  - Click on 'Select' under 'Selector' and run the mouse over the names of the forums. You should see that they become highlighted in green
-    - Click on the first one 'Swedish news' and it should turn red
-    - Click on the next one 'Life in Sweden' and you should see that not only does it turn red, but so do the remaining forum names. The system has now recognized a common identifier for that data type and has specified it in the floating box just above the Web Scraper window
+  - Click on 'Select' under 'Selector' and run the mouse over the names of the threads. You should see that they become highlighted in green
+    - Click on the first one and it should turn red
+    - Click on the next one and you should see that not only does it turn red, but so do the remaining thread names. The system has now recognized a common identifier for that data type and has specified it in the floating box just above the Web Scraper window
       - Click on 'Done selecting!'
   - Make sure to check the 'Multiple' box under 'Selector' so that they system collects all the instances and not just one
   - Scroll down in the Web Scraper window if needed and click on 'Save selector'
-- Now lets collect the names of the different forums
-  - Click on 'Add new selector' and this time name it 'topics' and leave the 'Type' as 'Text'
-  - Click on 'Select', select the number of topics until they are all highlighted, click on 'Done selecting!', don't forget to check 'Multiple' and then 'Save selector'
+- Now lets collect the date and time of the last reply made in the threads
+  - Click on 'Add new selector' and this time name it 'last_reply' and leave the 'Type' as 'Text'
+  - Click on 'Select', select the boxes with the last reply times until they are all highlighted, click on 'Done selecting!', don't forget to check 'Multiple' and then 'Save selector'
 
 ```How would you collect the number of replies?```
 
-- Scrape the data you have chosen to collect by going to 'Sitemap the_local' on the Web Scaper menubar and selecting 'Scrape'
+- Scrape the data you have chosen to collect by going to 'Sitemap gardening' on the Web Scaper menubar and selecting 'Scrape'
   - You can change the speed with which the scraper crawls the website and collects data, but leave these settings alone for now and click on 'Start scraping'
 PIC
 - A table of data should appear in the Web Scraper window, but if it doesn't click 'Refresh'
