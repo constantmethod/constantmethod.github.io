@@ -23,6 +23,8 @@ For each of these data types, you enter a search term in the box in the Enter te
 
 ## Duration
 
+![Duration](https://github.com/rocketboytom/TEfL/blob/master/duration.png)
+
 Like most social media platforms, Twitter restricts the amount of data you can collect from their database at a given time.
 
 Look under Advances settings at Period. Here you can choose how many days back you want to collect data for. Since Twitter caps the amount of data you can collect at one time, you may want to restrict the number of days back you collect for very active topics. The data cap is difficult to calculate, but in practice amounts to a few thousand tweets so it is rarely a problem if collecting from a specific user or for a less popular topic.
