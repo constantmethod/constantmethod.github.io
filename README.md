@@ -51,7 +51,7 @@ Take a look at Twitter and choose a hashtag or trend that you would like to exam
 - Go back to the menu and choose TAGS>Run Now! again. Wait until you see the Script Finished message
 - Go to the bottom of the screen and choose the Archive tab to see the data you have collected
 
-```What kind of data did you get Twitter?```
+```What kind of data did you get from Twitter?```
 
 ## Ways of representing data
 Go back to the ‘Readme/Settings’ tab at the bottom of the screen.
