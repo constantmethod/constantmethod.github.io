@@ -70,6 +70,7 @@ To do this we need to open up the dataset. In the top right corner click on 'Sha
 - Click on ‘Save’ and then on ‘Done’
 
 Under ‘Make interactive’ you will see ‘TAGSExplorer’ and ‘TAGSArchive’.
+![Visualisations](https://github.com/rocketboytom/TEfL/blob/master/Visualisations.png)
 - 'TAGSExplorer' is a network graphing tool. Click on the link to it
   - Each circle (node) is a user who made a tweet including your search term
   - Solid lines (edges) represent one user replying to another’s tweet, the arrows show the direction
