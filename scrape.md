@@ -15,7 +15,7 @@ To follow this tutorial, you will need have [Google Chrome](https://www.google.c
   - On Windows press Ctrl+Shift+I
   - On Mac press Cmd+Opt+I
 - Click 'Web Scraper' in the 'Developer tools' window menu. If it does not appear in the menu, click the arrow to show more menu items
-PIC
+[Open Web Scraper](https://github.com/rocketboytom/TEfL/blob/master/open_webscraper.png
 - If the 'Developer tools' window is on the side of the screen, follow the instructions to move it to the bottom
 - You should now see the Web Scraper window at the bottom of Chrome
 PIC
