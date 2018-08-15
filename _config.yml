@@ -1,2 +1,4 @@
 title: Trace Ethnography for Learning
 theme: jekyll-theme-cayman
+github:
+  is_project_page: false
