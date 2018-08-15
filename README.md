@@ -9,6 +9,8 @@ Do you have Google and Twitter accounts? If not, make them or follow along with 
 
 ## Data types
 
+[Data types]: https://github.com/rocketboytom/tefl/data_types.png "Data types"
+
 Look at the last row under Advanced Settings. You can collect 3 types of data:
 - Based on search terms
   - search/tweets - Tweets from the past 7 days that match the search term you give (could be a hashtag, name, place, etc…)
