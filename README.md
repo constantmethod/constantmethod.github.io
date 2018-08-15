@@ -62,8 +62,11 @@ Take a look at Twitter and choose a hashtag or trend that you would like to exam
 Go back to the ‘Readme/Settings’ tab at the bottom of the screen.
 
 To do this we need to open up the dataset. In the top right corner click on 'Share'
+![Share>Advanced](https://github.com/rocketboytom/TEfL/blob/master/sharing_advanced.png)
 - Click on 'Advanced' and then on ‘Change’ in the row with ‘Private - Only You can access’
+![Change permissions](https://github.com/rocketboytom/TEfL/blob/master/change_permissions.png)
 - Change the setting to ‘On - Public on the web’
+![Sharing on](https://github.com/rocketboytom/TEfL/blob/master/sharing_on.png)
 - Click on ‘Save’ and then on ‘Done’
 
 Under ‘Make interactive’ you will see ‘TAGSExplorer’ and ‘TAGSArchive’.
