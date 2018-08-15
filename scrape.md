@@ -103,4 +103,4 @@ To follow this tutorial, you will need have [Google Chrome](https://www.google.c
 - To export the data as a spreadsheet, go to 'Sitemap gardening' and choose 'Export data as CSV'
   - CSV (comma seperated values) is a standard format and will open in any spreadsheet program
 
-```How might it be best to order the data? Is there any data missing that would be useful for creating orderings that would be useful for ethnographic and interaction analyses?```
+```How might it be best to order the data? Is there any data missing that would be useful for creating orderings that would be good for ethnographic and interaction analyses?```
