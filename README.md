@@ -12,6 +12,5 @@ As people interact online, the traces they leave drive the digital platforms for
 
 For researchers trying to unpack the specifics of human and human-technology interactions, video is a particularly powerfull tool. With small cameras and screen-recording it is possible to create detailed records of even mobile interactions and to document technology use/non-use as part of everyday activities.
 
-- My general video analysis workflow
-
+- [General video analysis workflow](video_flow.md)
 - [Using Transana to work with large collections of video data](transana.md)
