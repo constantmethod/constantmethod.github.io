@@ -1,4 +1,4 @@
-# Using Transana to work with large collections of videos
+# Using Transana to work with large collections of video data
 
 
 [Transana](https://www.transana.com) is an application developed by David Woods which can run on either Mac OS X or Windows and allows users to perform qualitative analysis of video data. In many ways it is similar to other QDA software like Atlas.ti or Nvivo but with much better features for handling video data such as interviews and observations.
