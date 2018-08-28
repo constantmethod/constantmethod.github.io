@@ -1,6 +1,6 @@
-[< Home](README.md)
+[<Home](README.md)
 
-# Computational Ethnography as a method for social interaction research
+# Computational Ethnography as Social Interaction Research Method
 
 ## Roots
 - Documentary ethnography
