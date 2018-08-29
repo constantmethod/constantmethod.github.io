@@ -1,6 +1,6 @@
 [<Home](README.md)
 
-# Computational ethnography as social interaction research method
+# Trace ethnography as social interaction research method
 
 ## Roots
 - Documentary ethnography
@@ -13,7 +13,7 @@
   - API research
     - Using a platforms Application Programming Interface to retrieve data directly from its database
     - Most platforms provide a set of API 'hooks' - different kinds of data that can be retrieved
-    - Requests can be specified in programming languages like Python that ask a database to return specific data from specific hooks
+    Computational- Requests can be specified in programming languages like Python that ask a database to return specific data from specific hooks
   - Screen scrapping
     - When an API is unavailable, a script can be written that behaves like a person visiting the pages of a website copying and pasting the content they want to collect into a spreadsheet
     
@@ -63,6 +63,9 @@
   - Just because a platform makes data available, doesn't mean that any use of it is ethical!
   
 ## Further reading
-
+- [Trace ethnography: a retrospective](https://ethnographymatters.net/blog/2016/03/23/trace-ethnography-a-retrospective/) by Stuart Geiger
+- 
+- [Trace Interviews Step-By-Step](https://ethnographymatters.net/blog/2016/05/03/trace-interviews-step-by-step/) by Elizabeth Dubois
+- [Dubois, E., & Ford, H. (2015). Qualitative Political Communication| Trace Interviews: An Actor-Centered Approach. International Journal Of Communication, 9, 25.](http://ijoc.org/index.php/ijoc/article/view/3378)
   
   
