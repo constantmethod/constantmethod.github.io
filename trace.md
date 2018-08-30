@@ -54,9 +54,12 @@
     - Interaction analysis
     
 ## Example workflow
- - Collect discussion data through platform API
- - Clean up the data and format it as a speadsheet and chronological set of discussion threads
- - 
+ 1. Collect discussion data through platform API
+ 2. Clean up the data and format it as a speadsheet and chronological set of discussion threads
+ 3. Begin reading threads while trying temporal, content and actor related patterns in the data
+ 4. Define selection criteria based on the patterns identified
+ 5. Perform social interaction analysis on the selected threads
+ 6. Try to unpack the broad level patterns with or in relation to the detailed interactional and technical features identified through interaction analysis
 
 ## General research ethics concerns
 - From a research ethics perspective it is important to consider what data will be collected and when/what consent is needed before starting collection
