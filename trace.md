@@ -30,8 +30,8 @@
 - Data processing
   - Often, the data that is collected from an API research or screen scrapping process is messy and/or needs reformating for the particular needs of a study. In this sense, data must be made from the raw material that is collected online
   - Cleaning
-    - REGEX
-    - Beautiful Soup
+    - Regular expression scripts [(REGEX)](https://regexr.com)
+    - Text parsing tools e.g. [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
   - Presenting
     - Spreadsheets
     - Chronological threading
@@ -64,8 +64,7 @@
   
 ## Further reading
 - [Trace ethnography: a retrospective](https://ethnographymatters.net/blog/2016/03/23/trace-ethnography-a-retrospective/) by Stuart Geiger
-- 
 - [Trace Interviews Step-By-Step](https://ethnographymatters.net/blog/2016/05/03/trace-interviews-step-by-step/) by Elizabeth Dubois
-- [Dubois, E., & Ford, H. (2015). Qualitative Political Communication| Trace Interviews: An Actor-Centered Approach. International Journal Of Communication, 9, 25.](http://ijoc.org/index.php/ijoc/article/view/3378)
+- Dubois, E., & Ford, H. (2015). [Trace Interviews: An Actor-Centered Approach.](http://ijoc.org/index.php/ijoc/article/view/3378) International Journal Of Communication, 9, 25.
   
   
