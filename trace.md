@@ -52,6 +52,7 @@
     - Observation
     - Content analysis
     - Interaction analysis
+    - Trace interviews
     
 ## Example workflow
  1. Collect discussion data through platform API
@@ -60,6 +61,8 @@
  4. Define selection criteria based on the patterns identified
  5. Perform social interaction analysis on the selected threads
  6. Try to unpack the broad level patterns with or in relation to the detailed interactional and technical features identified through interaction analysis
+ 7. Perform social network analysis to identify central community members
+ 8. Conduct trace interviews with key community members
 
 ## General research ethics concerns
 - From a research ethics perspective it is important to consider what data will be collected and when/what consent is needed before starting collection
