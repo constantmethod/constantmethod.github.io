@@ -27,7 +27,7 @@ For each of these data types, you enter a search term in the box in the Enter te
 
 ## Duration
 
-![Duration](https://github.com/rocketboytom/TEfL/blob/master/duration.png?raw=true){:height="75%" width="75%"}
+![Duration](https://github.com/rocketboytom/TEfL/blob/master/duration.png?raw=true){height="75%" width="75%"}
 
 Like most social media platforms, Twitter restricts the amount of data you can collect from their database at a given time.
 
