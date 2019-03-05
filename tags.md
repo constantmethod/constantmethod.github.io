@@ -1,7 +1,6 @@
 [<Home](README.md)
 
-## Note: 
-This workshop is designed for people without programming experience. If you can already code, then you are welcome to access [Twitter's API](https://developer.twitter.com/en/docs.html) directly using a library like [Tweepy](http://www.tweepy.org/) for Python. For visualisations, you might try libraries like [Graph-tool](https://graph-tool.skewed.de/) and [Matplotlib](https://matplotlib.org/).
+These instructions are designed for people without programming experience. If you can already code, then try accessing [Twitter's API](https://developer.twitter.com/en/docs.html) directly using a library like [Tweepy](http://www.tweepy.org/) for Python. For visualisations, you might try libraries like [Graph-tool](https://graph-tool.skewed.de/) and [Matplotlib](https://matplotlib.org/).
 
 # Collecting & visualising data from Twitter with TAGS
 
