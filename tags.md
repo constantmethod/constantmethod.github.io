@@ -1,7 +1,7 @@
 [<Home](README.md)
 
 These instructions are designed for people without programming experience. If you can already code, then try accessing [Twitter's API](https://developer.twitter.com/en/docs.html) directly using a library like [Tweepy](http://www.tweepy.org/) for Python e.g.
-```import tweepy
+`import tweepy
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
@@ -10,7 +10,8 @@ for tweet in tweepy.Cursor(api.search,
                        count=1000,
                        result_type="recent",
                        include_entities=True).items():
-print tweet.tweet```
+print tweet.tweet`
+
 For visualisations, you might try libraries like [Graph-tool](https://graph-tool.skewed.de/) and [Matplotlib](https://matplotlib.org/).
 
 # Collecting & visualising data from Twitter with TAGS
