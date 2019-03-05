@@ -85,11 +85,11 @@ Under ‘Make interactive’ you will see ‘TAGSExplorer’ and ‘TAGSArchive�
 
 ```How might a network graph inform an ethnographic study of the community of Tweeters?```
 
-'TAGSArchive' visualises the dataset over time and has search tools. Go back to the main TAGS Google Sheet and click on the link to 'TAGSArchive'.
-- The tweets are organised chronologically
-- The timeline at the top has dots on it. Each dot represents a tweet and the visualisations shows volume of activity over time
-- Use the bars at the edges of the timeline to select specific time periods
-- The Filter boxes at the top allow you to filter tweets by the content of the tweet or the content of the user name
+- 'TAGSArchive' visualises the dataset over time and has search tools. Go back to the main TAGS Google Sheet and click on the link to 'TAGSArchive'.
+  - The tweets are organised chronologically
+  - The timeline at the top has dots on it. Each dot represents a tweet and the visualisations shows volume of activity over time
+  - Use the bars at the edges of the timeline to select specific time periods
+  - The Filter boxes at the top allow you to filter tweets by the content of the tweet or the content of the user name
 
 ```How might a chronological visualisation inform an ethnographic study of the community of Tweeters?```
 
