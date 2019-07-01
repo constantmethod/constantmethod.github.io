@@ -1,4 +1,4 @@
-This site contains a collection of tutorials and methodological notes relevant to the study of interaction with and through technology. The focus is the task of making the traces people and technologies leave available for ethnographic examination. It is maintained by [Thomas Hillman](https://ipkl.gu.se/english/about-the-dept./staff?languageId=100001&userId=xhilth) from the [Learning & IT Group](https://ipkl.gu.se/english/Research/research_programmes/learning-and-it) at the [University of Gothenburg](https://www.gu.se/english/?languageId=100001).
+This site contains a collection of tutorials and methodological notes relevant to the study of interaction with and through technology. The focus is the task of making the traces people and technologies leave available for ethnographic examination. It is maintained by [Thomas Hillman](https://ipkl.gu.se/english/about-the-dept./staff?languageId=100001&userId=xhilth) from the [Department of Applied IT](https://ait.gu.se/english/?languageId=100001) at the [University of Gothenburg](https://www.gu.se/english/?languageId=100001).
 
 
 ## Trace Ethnographic Methods
