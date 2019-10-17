@@ -4,7 +4,7 @@
 
 The idea with this tutorial is to give an introduction to how you can do some basic analysis of the data that is exchanged between a computer and online servers when using particular platforms or services (e.g. social media, learning management systems, etc). It discusses some simple approaches to creating visualisations that could be used to enrich ethnographic inquiries into the ways people use digital systems rather than providing a introduction to network traffic analysis for computer science purposes.
 
-To follow this tutorial, you will need have [Wireshark](https://www.wireshark.org) and [Gephi](https://gephi.org) installed.
+To follow this tutorial, you will need have [Wireshark](https://www.wireshark.org) installed.
 
 ## Collecting meta data about network traffic - 'packet sniffing'
 
@@ -25,7 +25,7 @@ The network interfaces you are using on your computer are listed here and you ne
 - Use the platform or service that you are interested in and when you are finished, go back to Wireshark and click on the red stop button on the toolbar
 - Save your capture to file in the default 'pcapng' format
 
-## Mapping the servers you've been in contact with
+## Locating the infrastructure
 
 Part of the pcapng file is the Internet Protocol (IP) addresses for the source and destination of each packet of data that was exchanged. Using databases that link those IP addresses to geographic locations, we can map the infrastructure that is involved while a platform or service is in use.
 
@@ -43,4 +43,13 @@ Part of the pcapng file is the Internet Protocol (IP) addresses for the source a
 
 ![Wireshark map](https://github.com/constantmethod/constantmethod.github.io/blob/master/wireshark_map.png?raw=true)
 
+## Revealing hidden infrastructure providers
 
+Just as we can resolve the geographic location of the infrastructure implicated when a platform or service is used, we can also reveal the identities of the companies involved that may not necessarily be easily visible to users.
+
+- Go back to the 'Statistics→Endpoints' window
+- At the bottom of the window, check the 'Name resolution' box
+
+![Wireshark map](https://github.com/constantmethod/constantmethod.github.io/blob/master/wireshark_names.png?raw=true)
+
+- If you look at the IPv4 tab, you will see the names of the servers that data were exchanged with. If you look carefully at the names, you will see that a lot of different company names are visible. Digging a little further, you will start to see patterns and note the companies with whom large numbers of packets were exchanged. This information can be visualised through a network graphing tool called [Gephi](https://gephi.org), but that's a topic for another tutorial!
