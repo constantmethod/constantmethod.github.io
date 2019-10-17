@@ -8,6 +8,7 @@ As people interact online, the traces they leave drive the digital platforms for
 - [Trace ethnography as social interaction research method](trace.md)
 - [Collecting & visualising data from Twitter with TAGS](tags.md)
 - [Scraping webforums with webscraper.io](scrape.md)
+- [Collecting and visualising network traffic](packets.med)
 
 ## Video-Based Ethnographic Methods
 
