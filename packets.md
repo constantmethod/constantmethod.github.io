@@ -17,6 +17,6 @@ The first step is collect the metadata on the traffic we want to analyse. While 
 The network interfaces you are using on your computer are listed here and you need to select one
   - Start your web browser and watch the little heartbeat graphs beside each network interface. Double click the one that shows the most activity as you use your web browser (in my case it is 'Belkin USB-C LAN: en7)
 - You should now see a screen full of scrolling information about the packets being exchanged when you use your web browser. This information is automatically recorded by Wireshark
-(https://github.com/constantmethod/constantmethod.github.io/blob/master/Wireshark_capture.png?raw=true){:height="75%" width="75%"}
+![Wireshark capture](https://github.com/constantmethod/constantmethod.github.io/blob/master/Wireshark_capture.png?raw=true){:height="75%" width="75%"}
 - Use the platform or service that you are interested in and when you are finished, go back to Wireshark and click on the red stop button on the toolbar
 - Save your capture to file in the default 'pcapng' format
