@@ -19,4 +19,4 @@ The network interfaces you are using on your computer are listed here and you ne
 - You should now see a screen full of scrolling information about the packets being exchanged when you use your web browser. This information is automatically recorded by Wireshark
 (https://github.com/constantmethod/constantmethod.github.io/blob/master/Wireshark_capture.png?raw=true){:height="75%" width="75%"}
 - Use the platform or service that you are interested in and when you are finished, go back to Wireshark and click on the red stop button on the toolbar
-- Save your capture to file in the 'pcapng' format
+- Save your capture to file in the default 'pcapng' format
