@@ -1,14 +1,14 @@
 [<Home](README.md)
 
-# Collecting and visualising network traffic
+# Revealing network infrastructures through packet sniffing
 
-The idea with this tutorial is to give an introduction to how you can do some basic analysis of the data that is exchanged between a computer and online servers when using particular platforms or services (e.g. social media, learning management systems, etc). It discusses some simple approaches to creating visualisations that could be used to enrich ethnographic inquiries into the ways people use digital systems rather than providing a introduction to network traffic analysis for computer science purposes.
+The idea with this tutorial is to give an introduction to how you can do some basic analysis of the data that is exchanged between a computer and online servers when using particular platforms or services (e.g. social media, learning management systems, etc). It discusses some simple approaches to uncovering infrastructures that could be used to enrich ethnographic inquiries into the ways people use digital systems rather than providing a introduction to network traffic analysis for computer science purposes.
 
-To follow this tutorial, you will need have [Wireshark](https://www.wireshark.org) installed.
+To follow this tutorial, you will need to have [Wireshark](https://www.wireshark.org) installed.
 
-## Collecting meta data about network traffic - 'packet sniffing'
+## Collecting meta data about network traffic
 
-All traffic on data networks like the internet consists of packets that are small chunks of data. These packets come in many different forms (or protocols) and each have source and destination addresses. We can use these pieces of meta data to get a sense of the flows of data without looking at the content of the packets themselves.
+All traffic on data networks like the internet consists of packets that are small chunks of data. These packets come in many different forms (or protocols) and each have source and destination addresses. We can use a process called packet sniffing to collect these pieces of meta data and to get a sense of the flows of data without looking at the content of the packets themselves.
 
 The first step is collect the metadata on the traffic we want to analyse. While we can filter the metadata we collect later, it is a good idea to minimize the amount of unwanted noise that is collected. For that reason, close all applications other than the one you want to collect traffic from (for this tutorial we will capture traffic from a web browser).
 
