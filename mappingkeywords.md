@@ -64,13 +64,13 @@ The network graph is starting to look interesting, but it needs to tweaking to m
 
 ![Recolour network](https://github.com/constantmethod/constantmethod.github.io/blob/master/gephi_forceatlas4.png?raw=true)
 
-At this point, you should have a usable visualisation that reveals how different keywords are clustered together and which occur most frequently. However, to make a prettier version that can be exported at high resolution, click on the Preview button at the top of the screen. Gephi will change to a different part of the program where new tools for polishing the presentation of your network are available. This part does not updte automatically so everytime you want to see the effect of changes you have made, you need to click on Refresh at the bottom of the screen.
+At this point, you should have a usable visualisation that reveals how different keywords are clustered together and which occur most frequently. However, to make a prettier version that can be exported at high resolution, click on the Preview button at the top of the screen. Gephi will change to a different part of the program where new tools for polishing the presentation of your network are available. This part does not update automatically so everytime you want to see the effect of changes you have made, you need to click on Refresh at the bottom of the screen.
 
-Under Presets, select Default Straight and refresh the screen. You may notice that the labels are under the nodes, so select the Manage Renderers tab and move Default node labels to the top of the list.
+Under Presets in the upper left pff the screen, select Default Straight and refresh the screen. You may notice that the labels are under the nodes, so select the Manage Renderers tab and move Default node labels to the top of the list.
 
 ![Renderer order](https://github.com/constantmethod/constantmethod.github.io/blob/master/gephi_preview1.png?raw=true)
 
-The visualisation looks ok now, but I would like the labels to fit better so going back to the Settings tab, uncheck Proportional size under Node Labels. Now you can change the the size of the labels by clicking on the elipses beside Font. The font size you choose will be the maximum size for the labels with the others proportionally smaller following the rule you set earlier in the Overview part of Gephi. For me Arial 36 Plain worked well. At this size I can read all the labels and the most frequent are not too large.
+I would be good if the labels fit better so go back to the Settings tab and uncheck Proportional size under Node Labels. Now you can change the the size of the labels by clicking on the elipses beside Font. The font size you choose will be the maximum size for the labels with the others proportionally smaller following the rule you set earlier in the Overview part of Gephi. For this example, Arial 36 Plain works well. At this size you can read all the labels and the most frequent ones are not too large.
 
 When you are happy with your visualisation, you can export it by clicking on the Export: SVG/PDF/PNG button at the very bottom left of the screen.
 
