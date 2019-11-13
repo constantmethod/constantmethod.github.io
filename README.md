@@ -9,6 +9,7 @@ As people interact online, the traces they leave drive the digital platforms for
 - [Collecting & visualising data from Twitter with TAGS](tags.md)
 - [Scraping webforums with webscraper.io](scrape.md)
 - [Revealing network infrastructures through packet sniffing](packets.md)
+- [Mapping publication keywords (introduction to Gephi)](mappingkeywords.md)
 
 ## Video-Based Ethnographic Methods
 
