@@ -38,3 +38,40 @@ You should now see three options. Check 'create links...' to create the connecti
 
 An Import Report will pop up with some errors that don't really matter for our purposes. Click on OK to display your network.
 
+## Laying out the network with Gephi
+
+Once you have created a network from the list of keywords, you will probably see a mess of dots and lines on the screen. We now have layout the network in a way that reveals its properties.
+
+![Import Wizard agents](https://github.com/constantmethod/constantmethod.github.io/blob/master/gephi_mess.png?raw=true)
+
+Start by going to the Layout window and choosing a layout. There are many different algorithms for laying out networks, but for our purposes, ForceAtlas2 should work well. The particular algorithm you choose depends on what you want to visualize so its worth trying them out.
+ 
+With ForceAtlas2 selected, click on Run. The result should look like a clumped up mess of dots, but you should see that certain clusters are starting to appear.
+
+![Initial network visualisation](https://github.com/constantmethod/constantmethod.github.io/blob/master/gephi_forceatlas1.png?raw=true)
+
+ForceAtlas2 simulates gravitational and repulsion forces between the nodes (dots) in the network. The more connections between two nodes, the more gravational pull between them. To stop all the nodes from bunching together we can either adjust the Gravity or the Scaling. By default scaling is set at 2.0 and Gravity at 1.0. Try changing these values and running the algortihm to see what happens. In the end, I settled on leaving the gravity at 1.0 and changing the scaling to 50.
+
+![Network layout](https://github.com/constantmethod/constantmethod.github.io/blob/master/gephi_forceatlas2.png?raw=true)
+
+Now we can scale the nodes to show which are the most frequent keywords and turn on labels. To scale the nodes, look at the Appearance window in the top left and click on the icon that looks like several nested circles. Click on Ranking and choose frequncy as the attribute. You can set the maximum and minimum size of the nodes and for me I chose 5 and 50. Click on Apply to see what happens to the network and adjust as necessary.
+
+To turn on labels, look at the very bottom of the Graph window and click on the large black T. You should now see all the labels (keywords) on the graph, but they are likely all on top of each other. They can be scaled in the same way as the nodes with most frequent appearing largest. To do this click on the icon that looks like two Ts in the Appearance window, select ranking and choose Frequency as the attribute. Again, you can decide on the minimum and maximum sizes of the labels and I settled on 0.5 and 2.
+
+![Label size](https://github.com/constantmethod/constantmethod.github.io/blob/master/gephi_forceatlas3.png?raw=true)
+
+The network graph is starting to look interesting, but it needs to tweaking to make it easier to read. To prevent the labels from overlapping with each other, go back to the Layout window and select the Label Adjust algorithm. Run it and watch how the network adjusts slightly so that the labels aren't on top of each other. The problem now though is that everything is black making labels difficult to read. To change this, go to the Appearance window and click on the icon that looks like a painter's palette. You should come to the Nodes-Unique screen by default with a grey colour showing. Click on apply. The nodes (dots) and edges (lines) in the network should change to grey making it much easier to see the labels.
+
+![Recolour network](https://github.com/constantmethod/constantmethod.github.io/blob/master/gephi_forceatlas4.png?raw=true)
+
+At this point, you should have a usable visualisation that reveals how they different keywords are clustered and which occur most frequently. However, to make a prettier version that can be exported at high resolution, click on the Preview button at the top of the screen. Gephi will change to a different part of the program where new tools for polishing the presentation of your network are available. This part does not updte automatically so everytime you want to see the effect of changes you have made, you need to click on Refresh at the bottom of the screen.
+
+Under Presets, select Default Straight and refresh the screen. You may notice that the labels are under the nodes, so select the Manage Renderers tab and move Default node labels to the top of the list.
+
+![Renderer order](https://github.com/constantmethod/constantmethod.github.io/blob/master/gephi_preview1.png?raw=true)
+
+The visualisation looks ok now, but I would like the labels to fit better so going back to the Settings tab, uncheck Proportional size under Node Labels. Now you can change the the size of the labels by clicking on the elipses beside Font. The font size you choose will be the maximum size for the labels with the others proportionally smaller following the rule you set earlier in the Overview part of Gephi. For me Arial 36 Plain worked well. At this size I can read all the labels and the most frequent are not too large.
+
+When you are happy with your visualisation, you can export it by clicking on the Export: SVG/PDF/PNG button at the very bottom left of the screen.
+
+![Gephi output](https://github.com/constantmethod/constantmethod.github.io/blob/master/gephi_output.png?raw=true)
