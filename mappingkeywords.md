@@ -7,11 +7,7 @@ This tutorial walks through the process of mapping the keywords for scientific p
 To follow this tutorial, you will need to have the network graphing tool [Gephi](https://gephi.org) installed. Once you have installed Gephi, you will need to go to Tools > Plugins and install the [Convert Excel and csv files to networks](https://gephi.org/plugins/#/plugin/excel-csv-converter-to-network) plugin.
 
 The tutorial uses data collected from [Scopus](http://www.scopus.com). If you want to work with your own data, you will likely need institutional access to Scopus. Otherwise, you can 
-<a href="https://github.com/constantmethod/constantmethod.github.io/blob/master/selectedPubsMetaData.csv" download="myfile">download the data</a> that I use in the tutorial instead.
-
-
-
-[download the data](https://github.com/constantmethod/constantmethod.github.io/blob/master/selectedPubsMetaData.csv?raw=false) that I use in the tutorial instead.
+<a href="https://github.com/constantmethod/constantmethod.github.io/blob/master/selectedPubsMetaData.csv" download>download the data</a> that I use in the tutorial instead.
 
 ## Getting data about publications from Scopus
 
