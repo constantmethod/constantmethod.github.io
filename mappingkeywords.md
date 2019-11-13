@@ -14,7 +14,7 @@ To get a list of keywords to work with, we will need to search for publications.
 
 Once you have searched for a relevant topic and assembled a list of relevant publications in Scopus, check the box next to All at the top of the list to select all the publication and click on CSV export. If you have more than 2000 publications in your list, Scopus will ask you if you want the all the information for the first 2000 or just the citation information for up to 20,000. For our purposes, we only need the keywords that are part of the citation information so select that. If you click on the arrow next to CSV export, you can specify which specific information you want to export and it is interesting to look at what is available.
 
-Once you have downloaded the CSV export or the [example data](https://github.com/constantmethod/constantmethod.github.io/blob/master/selectedPubsMetaData.csv?raw=true) I collected, you can move to Gephi.
+Once you have downloaded the CSV export or the [example data](https://github.com/constantmethod/constantmethod.github.io/blob/master/selectedPubsMetaData.csv) I collected, you can move to Gephi.
 
 ## Making a network from lists of data
 
