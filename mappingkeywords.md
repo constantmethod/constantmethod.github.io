@@ -64,7 +64,7 @@ The network graph is starting to look interesting, but it needs to tweaking to m
 
 ![Recolour network](https://github.com/constantmethod/constantmethod.github.io/blob/master/gephi_forceatlas4.png?raw=true)
 
-At this point, you should have a usable visualisation that reveals how they different keywords are clustered and which occur most frequently. However, to make a prettier version that can be exported at high resolution, click on the Preview button at the top of the screen. Gephi will change to a different part of the program where new tools for polishing the presentation of your network are available. This part does not updte automatically so everytime you want to see the effect of changes you have made, you need to click on Refresh at the bottom of the screen.
+At this point, you should have a usable visualisation that reveals how different keywords are clustered together and which occur most frequently. However, to make a prettier version that can be exported at high resolution, click on the Preview button at the top of the screen. Gephi will change to a different part of the program where new tools for polishing the presentation of your network are available. This part does not updte automatically so everytime you want to see the effect of changes you have made, you need to click on Refresh at the bottom of the screen.
 
 Under Presets, select Default Straight and refresh the screen. You may notice that the labels are under the nodes, so select the Manage Renderers tab and move Default node labels to the top of the list.
 
