@@ -2,7 +2,7 @@
 
 # Mapping publication keywords (introduction to Gephi)
 
-This tutorial walks through the process of mapping the keywords for scientific publications. This is most usefull for conducting systematic literature reviews, but the tutorial can also be used as a general introduction to mapping data using network graphing techniques.
+This tutorial walks through the process of mapping the keywords for scientific publications. This is most useful for conducting systematic literature reviews, but the tutorial can also be used as a general introduction to mapping data using network graphing techniques.
 
 To follow this tutorial, you will need to have the network graphing tool [Gephi](https://gephi.org) installed. Once you have installed Gephi, you will need to go to Tools > Plugins and install the [Convert Excel and csv files to networks](https://gephi.org/plugins/#/plugin/excel-csv-converter-to-network) plugin.
 
