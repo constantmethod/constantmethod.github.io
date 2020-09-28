@@ -1,4 +1,6 @@
-This site contains a collection of tutorials and methodological notes relevant to the study of interaction with and through technology. The focus is the task of making the traces people and technologies leave available for ethnographic examination. It is maintained by [Thomas Hillman](https://ipkl.gu.se/english/about-the-dept./staff?languageId=100001&userId=xhilth) from the [Department of Applied IT](https://ait.gu.se/english/?languageId=100001) at the [University of Gothenburg](https://www.gu.se/english/?languageId=100001).
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This repository contains a collection of tutorials and methodological notes relevant to the study of interaction with and through technology. The focus is the task of making the traces people and technologies leave available for ethnographic examination. It is maintained by [Thomas Hillman](https://ipkl.gu.se/english/about-the-dept./staff?languageId=100001&userId=xhilth) from the [Department of Applied IT](https://ait.gu.se/english/?languageId=100001) at the [University of Gothenburg](https://www.gu.se/english/?languageId=100001).
 
 
 ## Trace Ethnographic Methods
@@ -17,8 +19,6 @@ For researchers trying to unpack the specifics of human and human-technology int
 
 - [General video analysis workflow](video_flow.md)
 - [Using Transana to work with large collections of video data](transana.md)
-
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
